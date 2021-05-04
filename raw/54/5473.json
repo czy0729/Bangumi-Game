@@ -1,0 +1,12 @@
+{
+  "id": "5473",
+  "title": "罪恶装备",
+  "sub": "GUILTY GEAR",
+  "length": "4",
+  "platform": [{ "label": "PS", "cn": false }],
+  "date": ["最早发售 1998-05-14"],
+  "tags": ["格斗"],
+  "desc": "《罪恶装备》（GuiltyGear）是Arc System Works开发并且发行的一款格斗策略游戏系列作品，该游戏以代号“GEAR计划”为中心开始了一系列斗争。罪恶装备的剧情宏大，随着版本更新，故事也在不断连载中。自《罪恶装备Xrd -SIGN-》开始，游戏进入3D化，人物场景模型全部重做，更有新登场的很多角色，让这一系列得到再度的新生。",
+  "dev": ["Arc System Works"],
+  "pub": ["Arc System Works"]
+}

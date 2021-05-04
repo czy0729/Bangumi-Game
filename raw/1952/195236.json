@@ -1,0 +1,18 @@
+{
+  "id": "195236",
+  "title": "最终幻想14 红莲之狂潮",
+  "sub": "ファイナルファンタジーXIV 紅蓮のリベレーター",
+  "length": "1",
+  "platform": [
+    { "label": "PS5", "cn": false },
+    { "label": "PS4", "cn": false },
+    { "label": "PC", "cn": true },
+    { "label": "PS3", "cn": false }
+  ],
+  "date": [["最早发售 2017-06-20"]],
+  "tags": ["角色扮演", "MMO"],
+  "desc": "《最终幻想XIV：红莲之狂潮》（日版名：ファイナルファンタジーXIV: 紅蓮のリベレーター，英文版名：Final Fantasy XIV: Stormblood，港台译作“Final Fantasy XIV：红莲的解放者”）是由史克威尔艾尼克斯开发的大型多人在线角色扮演游戏（MMORPG）《最终幻想XIV：重生之境》的第二部资料片，发行于Microsoft Windows、Mac OS X和PlayStation 4平台。该资料片于2017年6月20日在全球发行，于2017年9月26日在中国发行。",
+  "lang": ["简中"],
+  "dev": ["Square Enix"],
+  "pub": ["Square Enix"]
+}

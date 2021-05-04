@@ -1,0 +1,15 @@
+{
+  "id": "2038",
+  "vid": "0",
+  "title": "精灵宝可梦 红",
+  "sub": "ポケットモンスター 赤",
+  "length": 4,
+  "score": 0,
+  "count": 0,
+  "platform": [{ "label": "GB", "cn": false }],
+  "date": ["最早发售 1996-02-27"],
+  "tags": ["角色扮演", "育成", "冒险", "回合制"],
+  "desc": "《精灵宝可梦 红·绿》（日语：ポケットモンスター赤・緑，英语：Pokémon Red and Blue）是由 Game Freak 开发、任天堂发行的 Game Boy 角色扮演游戏，是《精灵宝可梦》系列的开山之作。",
+  "dev": ["Game Freak"],
+  "pub": ["The Pokémon Company"]
+}

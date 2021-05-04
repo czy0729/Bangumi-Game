@@ -1,0 +1,15 @@
+{
+  "id": "707",
+  "title": "超级马力欧3D世界",
+  "sub": "Super Mario 3D World",
+  "length": "10",
+  "platform": [
+    { "label": "SFC", "cn": false },
+    { "label": "GBA", "cn": false }
+  ],
+  "date": [["最早发售 1990-11-21"], ["最早发售 2001-12-14"]],
+  "tags": ["动作", "平台"],
+  "desc": "版本历史：1990年，SFC超级任天堂 (同日问世)2001年，任天堂在GBA上推出《超级马里奥世界：超级马里奥Advance 2》，并在SFC版本上做了一些改动。2007年，任天堂在WII平台对应的Virtual console推出《超级马里奥世界》VC版，也是在SFC版本上做了一些改动。",
+  "dev": ["Nintendo"],
+  "pub": ["Nintendo"]
+}

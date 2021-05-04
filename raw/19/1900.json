@@ -1,0 +1,21 @@
+{
+  "id": "1900",
+  "vid": "https://www.vgtime.com/game/2354",
+  "title": "使命召唤4：现代战争",
+  "sub": "Call of Duty 4: Modern Warfare",
+  "length": 12,
+  "score": 9.3,
+  "count": 1658,
+  "platform": [
+    { "label": "PC", "cn": false },
+    { "label": "PS3", "cn": false },
+    { "label": "X360", "cn": false },
+    { "label": "Wii", "cn": false },
+    { "label": "NDS", "cn": false }
+  ],
+  "date": ["最早发售 2007-11-05"],
+  "tags": ["主视角", "射击"],
+  "desc": "《使命召唤》系列离开二战，首次表现现代战争题材。游戏背景设置在英国、中东、阿塞拜疆等地点，以美国海军陆战队两栖侦察部队和英国SAS突击队的视角表现战争，里程碑式的狙击关卡令人难忘。本作是2007年世界范围内销量最高的游戏，并获奖无数。",
+  "dev": ["Infinity Ward"],
+  "pub": ["Activision"]
+}

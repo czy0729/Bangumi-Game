@@ -1,0 +1,15 @@
+{
+  "id": "175552",
+  "title": "赛马娘 Pretty Derby",
+  "sub": "ウマ娘 プリティーダービー",
+  "length": 5,
+  "platform": [
+    { "label": "iOS", "cn": false },
+    { "label": "Android", "cn": false }
+  ],
+  "date": ["最早发售 2021-02-24"],
+  "tags": ["养成"],
+  "desc": "育成シミュレーションゲーム『ウマ娘 プリティーダービー』が登場！奥深い育成システムとハイクオリティな3Dで表現されるウマ娘の世界を楽しもう！",
+  "dev": ["Cygames"],
+  "pub": ["Cygames"]
+}

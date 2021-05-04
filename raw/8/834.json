@@ -1,0 +1,17 @@
+{
+  "id": "834",
+  "vid": "",
+  "title": "三国志11",
+  "sub": "三國志11",
+  "length": "5",
+  "platform": [
+    { "label": "PS2", "cn": false },
+    { "label": "PC", "cn": false },
+    { "label": "Wii", "cn": false }
+  ],
+  "date": [["最早发售 2006-03-17"]],
+  "tags": ["策略"],
+  "desc": "《三国志 11》（Romance of the Three Kingdoms XI）是日本光荣（Koei）公司研发销售的一款回合制战略游戏，为《三国志》系列的第11作。《三国志 11》如《三国志IX》一样是十日制，与《三国志IX》、《三国志X》一样，这次也是使用一张地图来体现全中国的风貌，并且采用了标清电视技术以及汉语配音（在威力加强版中可以选择日语）。",
+  "dev": ["Koei Tecmo"],
+  "pub": ["Koei Tecmo"]
+}
