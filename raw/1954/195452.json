@@ -1,0 +1,19 @@
+{
+  "id": "195452",
+  "vid": "2190",
+  "title": "影子武士2",
+  "sub": "Shadow Warrior 2",
+  "length": 5,
+  "score": 7.6,
+  "count": 161,
+  "platform": [
+    { "label": "PS4", "cn": false },
+    { "label": "XB1", "cn": false },
+    { "label": "PC", "cn": false }
+  ],
+  "date": ["最早发售 2016-10-13"],
+  "tags": ["动作", "主视角"],
+  "desc": "本作是人气游戏《影子武士（Shadow Warrior）》系列的新作，一款第一人称动作射击游戏，玩家可以使用枪械、刀剑战斗。游戏在玩法上延续了《毁灭战士》的风格，在战斗、杀戮上极力追求爽快火爆。",
+  "dev": ["Flying Wild Hog"],
+  "pub": ["Devolver Digital"]
+}

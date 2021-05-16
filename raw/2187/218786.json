@@ -1,0 +1,18 @@
+{
+  "id": "218786",
+  "vid": "10174",
+  "title": "异域镇魂曲",
+  "sub": "Planescape: Torment",
+  "length": 5,
+  "score": 9.2,
+  "count": 53,
+  "platform": [
+    { "label": "PC", "cn": false },
+    { "label": "Android", "cn": false }
+  ],
+  "date": ["最早发售 1999-12-12"],
+  "tags": ["角色扮演"],
+  "desc": "经典角色扮演游戏，采用了《龙与地下城》中不甚流行的“异界风景”设定，因其对人性和轮回深刻的思考，强大的剧情和世界设定，被誉为CRPG史上最伟大的作品之一。",
+  "dev": ["Black Isle Studios"],
+  "pub": ["Interplay Entertainment"]
+}

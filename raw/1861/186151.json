@@ -1,0 +1,23 @@
+{
+  "id": "186151",
+  "vid": "294",
+  "title": "桑塔 半精灵英雄",
+  "sub": "Shantae: Half-Genie Hero",
+  "length": 11,
+  "score": 7.9,
+  "count": 70,
+  "platform": [
+    { "label": "NS", "cn": false },
+    { "label": "PS4", "cn": false },
+    { "label": "XB1", "cn": false },
+    { "label": "PC", "cn": false },
+    { "label": "WiiU", "cn": false },
+    { "label": "PSV", "cn": false },
+    { "label": "PS3", "cn": false },
+    { "label": "X360", "cn": false }
+  ],
+  "date": ["最早发售 2016-12-20"],
+  "tags": ["平台", "冒险"],
+  "desc": "开发商WayForward在Kickstarter上为本作进行筹资，最终成功达标，游戏将登陆多个平台。这是一款有趣的横版冒险游戏，游戏中玩家扮演的少女会使用头发攻击敌人，并总是在扭着水蛇腰。",
+  "dev": ["WayForward"]
+}

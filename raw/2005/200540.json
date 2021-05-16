@@ -1,0 +1,18 @@
+{
+  "id": "200540",
+  "vid": "551",
+  "title": "让它死吧",
+  "sub": "Let It Die",
+  "length": 5,
+  "score": 7.6,
+  "count": 33,
+  "platform": [
+    { "label": "PS4", "cn": false },
+    { "label": "PC", "cn": false }
+  ],
+  "date": ["最早发售 2016-12-03"],
+  "tags": ["动作"],
+  "desc": "一款原创恐怖类动作游戏，从预告片看游戏的整体风格为昏暗+血腥，玩家可以利用各种武器将敌人碎尸万段。",
+  "dev": ["Grasshopper Manufacture"],
+  "pub": ["GungHo"]
+}

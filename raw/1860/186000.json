@@ -1,0 +1,24 @@
+{
+  "id": "186000",
+  "vid": "4309",
+  "title": "舞力全开2017",
+  "sub": "Just Dance 2017",
+  "length": 11,
+  "score": 8.3,
+  "count": 291,
+  "platform": [
+    { "label": "NS", "cn": false },
+    { "label": "PS4", "cn": false },
+    { "label": "XB1", "cn": false },
+    { "label": "PC", "cn": false },
+    { "label": "WiiU", "cn": false },
+    { "label": "PS3", "cn": false },
+    { "label": "X360", "cn": false },
+    { "label": "Wii", "cn": false }
+  ],
+  "date": ["最早发售 2016-10-25"],
+  "tags": ["音乐", "体感"],
+  "desc": "《舞力全开2017》是由育碧开发并发行的一款体感舞蹈游戏，是《舞力全开》系列2016年的作品。游戏收录了包括时下最流行的音乐以及许多经典曲目，包括Maroon 5的《Don't Wanna Know》、Justin Bieber的《Sorry》、Major Lazer的《Lean On》以及Queen乐队的《Don't Stop Me Now》等。除此之外，《舞力全开2017》也是最早登陆任天堂主机Switch的游戏之一。",
+  "dev": ["Ubisoft"],
+  "pub": ["Ubisoft"]
+}

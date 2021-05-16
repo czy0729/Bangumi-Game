@@ -1,0 +1,21 @@
+{
+  "id": "183678",
+  "vid": "4195",
+  "title": "实况足球 2017",
+  "sub": "Pro Evolution Soccer 2017",
+  "length": 3,
+  "score": 7.9,
+  "count": 571,
+  "platform": [
+    { "label": "PS4", "cn": false },
+    { "label": "XB1", "cn": false },
+    { "label": "PC", "cn": false },
+    { "label": "PS3", "cn": false },
+    { "label": "X360", "cn": false }
+  ],
+  "date": ["最早发售 2016-09-13"],
+  "tags": ["体育"],
+  "desc": "《实况足球》系列的最新作，将于2017年秋季发售。在这款新的作品中，将会加入精准传球、真实触感等全新系统，而AI也将首次具备向玩家学习的能力。",
+  "dev": ["Konami"],
+  "pub": ["Konami"]
+}

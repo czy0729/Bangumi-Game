@@ -1,0 +1,18 @@
+{
+  "id": "199410",
+  "vid": "4350",
+  "title": "图灵测试",
+  "sub": "The Turing Test",
+  "length": 3,
+  "score": 0,
+  "count": 0,
+  "platform": [
+    { "label": "XB1", "cn": false },
+    { "label": "PC", "cn": false }
+  ],
+  "date": ["最早发售 2016-08-30"],
+  "tags": ["主视角", "射击"],
+  "desc": "由开发过游戏《军团1944》的英国制作组Bulkhead Interactive,所开发制作的第一人称解谜游戏。游戏描写了在木星卫星做调查的女工程师Ava Turing，发现了卫星的秘密，并且引发了一段关于人类知性的故事。",
+  "dev": ["Bulkhead Interactive"],
+  "pub": ["Square Enix"]
+}

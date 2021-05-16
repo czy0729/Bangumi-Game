@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-03-23 16:54:18
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-03-27 18:43:16
+ * @Last Modified time: 2021-05-14 21:55:27
  */
 const fs = require('fs')
 const http = require('http')
@@ -44,7 +44,7 @@ axios.defaults.timeout = 6000
   if (imgs.length) {
     for (let i = 0; i < imgs.length; i += 1) {
       const url = imgs[i]
-      await download(url, `./preview/${Math.floor(id / 100)}/${id}/${i}.jpg`)
+      await download(url, `./_preview/${Math.floor(id / 100)}/${id}/${i}.jpg`)
     }
   }
 
@@ -126,18 +126,18 @@ axios.defaults.timeout = 6000
     }
   })
 
-  const dataPath = `./data/${Math.floor(id / 100)}/${id}.json`
+  const dataPath = `./raw/${Math.floor(id / 100)}/${id}.json`
   const dirPath = path.dirname(dataPath)
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath)
   }
   fs.writeFileSync(
-    `./data/${Math.floor(id / 100)}/${id}.json`,
+    `./raw/${Math.floor(id / 100)}/${id}.json`,
     JSON.stringify(data)
   )
   console.log(data)
 
-  // exec(`open ./preview/${Math.floor(id / 100)}/${id}/`)
+  // exec(`open ./_preview/${Math.floor(id / 100)}/${id}/`)
 })()
 
 async function fetch(url) {

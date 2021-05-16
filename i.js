@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-03-23 16:54:18
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-03-27 07:34:36
+ * @Last Modified time: 2021-05-14 21:54:04
  */
 const fs = require('fs')
 const http = require('http')
@@ -40,14 +40,14 @@ axios.defaults.timeout = 3000
       const url = imgs[i]
       await download(
         url,
-        `./preview/${Math.floor(id / 100)}/${id}/${i + 1}.jpg`
+        `./_preview/${Math.floor(id / 100)}/${id}/${i + 1}.jpg`
       )
     }
   }
 
   if (!vid) {
     console.log(bgm, imgs.length)
-    exec(`open ./preview/${Math.floor(id / 100)}/${id}/`)
+    exec(`open ./_preview/${Math.floor(id / 100)}/${id}/`)
   } else {
     length = imgs.length
   }
@@ -149,7 +149,7 @@ axios.defaults.timeout = 3000
           const url = imgs[i]
           await download(
             url,
-            `./preview/${Math.floor(id / 100)}/${id}/${i}.jpg`
+            `./_preview/${Math.floor(id / 100)}/${id}/${i}.jpg`
           )
         }
       }
@@ -245,7 +245,7 @@ axios.defaults.timeout = 3000
       )
       console.log(data)
 
-      exec(`open ./preview/${Math.floor(id / 100)}/${id}/`)
+      exec(`open ./_preview/${Math.floor(id / 100)}/${id}/`)
     })()
 
     async function fetch(url) {

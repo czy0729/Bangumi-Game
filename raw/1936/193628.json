@@ -1,0 +1,20 @@
+{
+  "id": "193628",
+  "vid": "102",
+  "title": "魔法季节 沉睡的大地",
+  "sub": "Earthlock: Festival of Magic",
+  "length": 12,
+  "score": 0,
+  "count": 0,
+  "platform": [
+    { "label": "PS4", "cn": false },
+    { "label": "XB1", "cn": false },
+    { "label": "PC", "cn": false },
+    { "label": "WiiU", "cn": false }
+  ],
+  "date": ["最早发售 2016-09-01"],
+  "tags": ["角色扮演"],
+  "desc": "游戏设定在Umbra行星，这是一个停止转动几千年的星球，一个交杂着机械与魔法的世界。在游戏中，你要探索这个古老而又神秘的星球，化解即将到来的战争，当然，你还可以发展自己的美丽农场，种植收获各类物品等等。",
+  "dev": ["Snowcastle Games"],
+  "pub": ["Snowcastle Games"]
+}
