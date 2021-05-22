@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-04-25 18:19:30
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-09 23:50:43
+ * @Last Modified time: 2021-05-17 17:27:38
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -14,22 +14,13 @@ axios.defaults.timeout = 3000
 // document.cookie
 const headers = {
   'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
   Cookie:
-    'chii_sec_id=pG5Jgrb5v3PhSnN%2B9S%2Bj0sTJQGDkbMC5jU2SCGE; chii_theme=dark; chii_cookietime=2592000; chii_auth=3zmNYVun%2B96yPwv0D%2BE7hRwgZpwz0wKNCE659a2mPuEArWOynIrVafAaXhsdeV%2BRs8uKp19QQK4YDsjxKSxFIyFGHDtxuAtaw3hF; prg_display_mode=normal; __utmz=1.1620316056.95.3.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; chii_sid=43z2aa; __utma=1.1636245540.1617210056.1620491715.1620567471.102; __utmc=1; __utmt=1; __utmb=1.1.10.1620567471'
+    'chii_sec_id=gKB4FVqYg8LPoxJJctmSAsCl5PZ8bR5Vs%2BGdgLWE; chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; chii_auth=ayzByt8yYpFTz1wAk9dKpUZ0WmvrnKChvSMBmJPkS4ccadkUQweDf0NjJCbgfmAjGS4%2FMK03D4%2BypWrbXi8WkJ5Xd2cydK05CukX; __utmc=1; __utmz=1.1620303079.148.9.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; prg_display_mode=normal; chii_searchDateLine=0; __utma=1.859723941.1616215584.1621231192.1621242665.165; chii_sid=pbKl2p; __utmb=1.11.10.1621242665'
 }
-const startIndex = 400
-const game = JSON.parse(fs.readFileSync('./data/mini.json'))
+const startIndex = 0
+const game = JSON.parse(fs.readFileSync('./data/game.min.json'))
 const ids = Object.keys(game)
-
-if (startIndex) {
-  const min = JSON.parse(fs.readFileSync('./data/game.min.json'))
-  Object.keys(game).forEach(item => {
-    if (min[item]) {
-      game[item].c = min[item].c
-    }
-  })
-}
 
 const min = []
 ;(async function () {

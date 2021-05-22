@@ -1,0 +1,24 @@
+{
+  "id": 2115,
+  "title": "Garden",
+  "sub": "Garden",
+  "length": 5,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2008-01-25",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "CUFFS"
+  ],
+  "pub": [
+    "CUFFS"
+  ]
+}

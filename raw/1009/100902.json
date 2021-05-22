@@ -1,0 +1,24 @@
+{
+  "id": 100902,
+  "title": "箱庭逻辑",
+  "sub": "箱庭ロジック",
+  "length": 13,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2014-10-31",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "Cabbit"
+  ],
+  "pub": [
+    "Cabbit"
+  ]
+}

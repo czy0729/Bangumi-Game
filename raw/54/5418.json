@@ -1,0 +1,24 @@
+{
+  "id": 5418,
+  "title": "魔法使之夜",
+  "sub": "魔法使いの夜",
+  "length": 6,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2012-04-12",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "TYPE-MOON"
+  ],
+  "pub": [
+    "TYPE-MOON"
+  ]
+}

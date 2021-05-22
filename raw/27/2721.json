@@ -1,0 +1,24 @@
+{
+  "id": 2721,
+  "title": "狂欢节",
+  "sub": "CARNIVAL",
+  "length": 3,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2004-05-14",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "FlyingShine"
+  ],
+  "pub": [
+    "FlyingShine"
+  ]
+}

@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-03-23 16:54:18
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-14 21:55:27
+ * @Last Modified time: 2021-05-19 09:44:45
  */
 const fs = require('fs')
 const http = require('http')
@@ -126,13 +126,13 @@ axios.defaults.timeout = 6000
     }
   })
 
-  const dataPath = `./raw/${Math.floor(id / 100)}/${id}.json`
+  const dataPath = `./_raw/${Math.floor(id / 100)}/${id}.json`
   const dirPath = path.dirname(dataPath)
   if (!fs.existsSync(dirPath)) {
     fs.mkdirSync(dirPath)
   }
   fs.writeFileSync(
-    `./raw/${Math.floor(id / 100)}/${id}.json`,
+    `./_raw/${Math.floor(id / 100)}/${id}.json`,
     JSON.stringify(data)
   )
   console.log(data)

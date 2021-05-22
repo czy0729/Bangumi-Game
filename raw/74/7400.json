@@ -1,0 +1,24 @@
+{
+  "id": 7400,
+  "title": "神树之馆",
+  "sub": "神樹の館",
+  "length": 5,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2004-09-24",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "Meteor"
+  ],
+  "pub": [
+    "Meteor"
+  ]
+}

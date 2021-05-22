@@ -1,0 +1,24 @@
+{
+  "id": 2288,
+  "title": "伊甸园",
+  "sub": "eden*",
+  "length": 6,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2009-09-18",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "minori"
+  ],
+  "pub": [
+    "minori"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": 2723,
+  "title": "KIRA☆KIRA 煌煌舞台",
+  "sub": "キラ☆キラ",
+  "length": 8,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2007-11-22",
+  "tags": [
+    "ADV",
+    "GALGAME"
+  ],
+  "desc": "",
+  "dev": [
+    "OVERDRIVE"
+  ],
+  "pub": [
+    "OVERDRIVE"
+  ]
+}

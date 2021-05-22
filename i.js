@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-03-23 16:54:18
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-14 21:54:04
+ * @Last Modified time: 2021-05-17 17:38:22
  */
 const fs = require('fs')
 const http = require('http')
@@ -30,7 +30,7 @@ axios.defaults.timeout = 3000
         const $row = cheerio(element)
         const url = $row.attr('src')
         return url.replace('https://', 'http://')
-        // return `http://img2.tgbus.com/i/gl_1080p/data/sharedata/${
+        // return `http://img2.tgbus.com/i/gl_1080p/_raw/sharedata/${
         //   url.split('/sharedata/')[1]
         // }`
       })
@@ -234,13 +234,13 @@ axios.defaults.timeout = 3000
         }
       })
 
-      const dataPath = `./data/${Math.floor(id / 100)}/${id}.json`
+      const dataPath = `./_raw/${Math.floor(id / 100)}/${id}.json`
       const dirPath = path.dirname(dataPath)
       if (!fs.existsSync(dirPath)) {
         fs.mkdirSync(dirPath)
       }
       fs.writeFileSync(
-        `./data/${Math.floor(id / 100)}/${id}.json`,
+        `./_raw/${Math.floor(id / 100)}/${id}.json`,
         JSON.stringify(data)
       )
       console.log(data)

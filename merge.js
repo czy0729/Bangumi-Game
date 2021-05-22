@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-04-15 20:52:02
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-04-25 17:52:51
+ * @Last Modified time: 2021-05-22 15:40:58
  */
 const fs = require('fs')
 const path = require('path')
@@ -56,8 +56,11 @@ Object.keys(data).forEach(key => {
     if (typeof date === 'string') {
       date = [date]
     }
-    if (date[1]) min.cn = matchDate(date[1])
-    if (date[0]) min.en = matchDate(date[0])
+
+    if (Array.isArray(date)) {
+      if (date[1]) min.cn = matchDate(date[1])
+      if (date[0]) min.en = matchDate(date[0])
+    }
 
     min.pl = item.platform.map(item => item.label)
   }
