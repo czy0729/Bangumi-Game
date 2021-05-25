@@ -2,14 +2,14 @@
  * @Author: czy0729
  * @Date: 2021-05-19 09:43:28
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-22 19:16:14
+ * @Last Modified time: 2021-05-24 15:36:57
  */
 const cheerioRN = require("cheerio-without-node-native");
 const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 const exec = require("child_process").exec;
-axios.defaults.timeout = 6000;
+axios.defaults.timeout = 9000;
 
 const desc = `
 
