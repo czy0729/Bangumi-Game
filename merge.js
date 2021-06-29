@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-04-15 20:52:02
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-24 15:09:28
+ * @Last Modified time: 2021-06-29 17:07:24
  */
 const fs = require('fs')
 const path = require('path')
@@ -72,7 +72,12 @@ Object.keys(data).forEach(key => {
 
   dataMin[item.id] = min
 })
-fs.writeFileSync('./data/game.min.json', JSON.stringify(dataMin, null, 2))
+
+const min = Object.keys(dataMin).map(id => ({
+  ...dataMin[id],
+  id: Number(id)
+}))
+fs.writeFileSync('./data/game.min.json', JSON.stringify(min))
 
 function matchDate(str) {
   if (typeof str === 'string') {

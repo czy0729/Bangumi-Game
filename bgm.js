@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-04-25 18:19:30
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-05-17 17:27:38
+ * @Last Modified time: 2021-06-29 17:16:15
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -14,20 +14,18 @@ axios.defaults.timeout = 3000
 // document.cookie
 const headers = {
   'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36',
   Cookie:
-    'chii_sec_id=gKB4FVqYg8LPoxJJctmSAsCl5PZ8bR5Vs%2BGdgLWE; chii_cookietime=2592000; chii_theme_choose=1; chii_theme=dark; chii_auth=ayzByt8yYpFTz1wAk9dKpUZ0WmvrnKChvSMBmJPkS4ccadkUQweDf0NjJCbgfmAjGS4%2FMK03D4%2BypWrbXi8WkJ5Xd2cydK05CukX; __utmc=1; __utmz=1.1620303079.148.9.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; prg_display_mode=normal; chii_searchDateLine=0; __utma=1.859723941.1616215584.1621231192.1621242665.165; chii_sid=pbKl2p; __utmb=1.11.10.1621242665'
+    'chii_sec_id=pG5Jgrb5v3PhSnN%2B9S%2Bj0sTJQGDkbMC5jU2SCGE; chii_cookietime=2592000; chii_auth=R9y48ZHF7gIUz1QeDAE46QjJhhT7vXSF7qC5pWVfmO%2FLRZHngfgq4Rz4%2B8wy09ccB6nJRgJ6Q3B3e9wTlTtXcFIQFeNOostp5mBz; prg_display_mode=normal; chii_theme=dark; __utmz=1.1624665203.228.8.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmc=1; chii_sid=6ZepT9; __utma=1.1636245540.1617210056.1624951893.1624957825.236; __utmt=1; __utmb=1.1.10.1624957825'
 }
 const startIndex = 0
 const game = JSON.parse(fs.readFileSync('./data/game.min.json'))
-const ids = Object.keys(game)
 
 const min = []
 ;(async function () {
-  for (let i = startIndex; i < ids.length; i += 1) {
-    const idBgm = ids[i]
-    const item = game[idBgm]
-    item.id = Number(idBgm)
+  for (let i = startIndex; i < game.length; i += 1) {
+    const item = game[i]
+    const idBgm = item.id
 
     const url = `https://api.bgm.tv/subject/${item.id}?responseGroup=large`
     console.log('fetch', url)
@@ -54,6 +52,8 @@ function smallImage(item, type = 'medium') {
     .replace('http://lain.bgm.tv/', '//lain.bgm.tv/')
     .replace('https://lain.bgm.tv/', '//lain.bgm.tv/')
     .split('?')[0]
+    .replace('//lain.bgm.tv/pic/cover/', '')
+    .replace('.jpg', '')
 }
 
 async function fetch(url, headers) {
