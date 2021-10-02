@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-04-25 18:19:30
  * @Last Modified by: czy0729
- * @Last Modified time: 2021-06-29 17:16:15
+ * @Last Modified time: 2021-10-02 16:08:20
  */
 const fs = require('fs')
 const axios = require('axios')
@@ -14,9 +14,9 @@ axios.defaults.timeout = 3000
 // document.cookie
 const headers = {
   'User-Agent':
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36',
   Cookie:
-    'chii_sec_id=pG5Jgrb5v3PhSnN%2B9S%2Bj0sTJQGDkbMC5jU2SCGE; chii_cookietime=2592000; chii_auth=R9y48ZHF7gIUz1QeDAE46QjJhhT7vXSF7qC5pWVfmO%2FLRZHngfgq4Rz4%2B8wy09ccB6nJRgJ6Q3B3e9wTlTtXcFIQFeNOostp5mBz; prg_display_mode=normal; chii_theme=dark; __utmz=1.1624665203.228.8.utmcsr=baidu|utmccn=(organic)|utmcmd=organic; __utmc=1; chii_sid=6ZepT9; __utma=1.1636245540.1617210056.1624951893.1624957825.236; __utmt=1; __utmb=1.1.10.1624957825'
+  'chii_sec_id=gKB4FVqYg8LPoxJJctmSAsCl5PZ8bR5Vs%2BGdgLWE; chii_cookietime=2592000; chii_theme_choose=1; __utmz=1.1629511442.303.15.utmcsr=tongji.baidu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; chii_theme=dark; prg_display_mode=normal; chii_auth=Pjv8PqFeL6oDyU5pd7lYbrfsvk%2BsL6SSGqvL0TcDKdRQudc4DPYSBe7jfKHzB6xV0EWarCJgWMhheUpklA%2FDNlYmXts%2BZKf4tWwJ; __utmc=1; chii_searchDateLine=0; chii_sid=rM6MTv; __utma=1.859723941.1616215584.1633149077.1633161455.370; __utmt=1; __utmb=1.4.10.1633161455'
 }
 const startIndex = 0
 const game = JSON.parse(fs.readFileSync('./data/game.min.json'))
