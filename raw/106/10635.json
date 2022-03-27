@@ -1,0 +1,17 @@
+{
+  "id": 10635,
+  "title": "同级生2",
+  "sub": "同級生2",
+  "length": 3,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "1995-01-31",
+  "tags": ["ADV", "GALGAME"],
+  "desc": "",
+  "dev": ["エルフ"],
+  "pub": ["エルフ"]
+}

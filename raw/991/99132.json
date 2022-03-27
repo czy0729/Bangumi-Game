@@ -1,0 +1,17 @@
+{
+  "id": 99132,
+  "title": "MYTH",
+  "sub": "MYTH",
+  "length": 1,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2008-08-16",
+  "tags": ["ADV", "GALGAME"],
+  "desc": "",
+  "dev": ["Circletempo"],
+  "pub": ["Circletempo"]
+}

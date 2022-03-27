@@ -1,0 +1,17 @@
+{
+  "id": 79183,
+  "title": "皋月物语",
+  "sub": "My Merry May with be",
+  "length": 4,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2005-06-30",
+  "tags": ["ADV", "GALGAME"],
+  "desc": "",
+  "dev": ["KID"],
+  "pub": ["KID"]
+}

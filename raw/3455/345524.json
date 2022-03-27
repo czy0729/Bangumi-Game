@@ -1,0 +1,17 @@
+{
+  "id": 345524,
+  "title": "Homestay a la Mode",
+  "sub": "",
+  "length": 2,
+  "platform": [
+    {
+      "label": "PC",
+      "cn": false
+    }
+  ],
+  "date": "2021-09-24",
+  "tags": ["ADV", "GALGAME"],
+  "desc": "",
+  "dev": ["Atelier Kaguya HonkyTonk Pumpkin"],
+  "pub": ["Atelier Kaguya"]
+}
