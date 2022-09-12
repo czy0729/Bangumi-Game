@@ -10,5 +10,6 @@ dist/
 data/discovery/lain/
 iPhoneDistribution.p12
 ios/
+preview2/
 node_modules
 yarn.lock

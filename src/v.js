@@ -2,7 +2,7 @@
  * @Author: czy0729
  * @Date: 2021-03-23 16:54:18
  * @Last Modified by: czy0729
- * @Last Modified time: 2022-03-27 08:05:52
+ * @Last Modified time: 2022-09-12 18:54:23
  */
 const fs = require('fs')
 const http = require('http')
@@ -133,9 +133,9 @@ axios.defaults.timeout = 6000
   }
   fs.writeFileSync(
     `../_raw/${Math.floor(id / 100)}/${id}.json`,
-    JSON.stringify(data)
+    JSON.stringify(data, null, 2)
   )
-  console.log(data)
+  console.log(`../_raw/${Math.floor(id / 100)}/${id}.json`)
 
   // exec(`open ./_preview/${Math.floor(id / 100)}/${id}/`)
 })()
@@ -187,7 +187,7 @@ async function download(url, pathData) {
 
     response.data.pipe(writer)
     writer.on('finish', () => {
-      console.log(url)
+      console.log(pathData)
       resolve()
     })
   })
